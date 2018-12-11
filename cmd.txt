@@ -1,0 +1,3 @@
+pythonw gclient.py url1.txt NodeFiles01 http://127.0.0.1:6666
+pythonw gclient.py url2.txt NodeFiles02 http://127.0.0.1:7777
+pythonw gclient.py url3.txt NodeFiles03 http://127.0.0.1:8888
