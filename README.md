@@ -16,6 +16,10 @@ File(include big files) share system based on python.
 6） 文件传输功能：资源节点与源节点建立连接，对文件传输进行，考虑了大文件下的传输问题。
 
 ### Usage
+NodeFile为各个节点的文件分享目录 将需要分享的文件放置此目录即可进行共享
+
+url.txt 为各个节点维护的已知的可信节点列表，存储了节点连接关系
+
 启动三个节点进行模拟
 ```
 pythonw gclient.py url1.txt NodeFiles01 http://127.0.0.1:6666
